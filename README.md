@@ -19,13 +19,12 @@
 
 
 Для сборки необходимы 4 макроса
-$(BoostIncludeDir) - Директория включаемых файлов буста (D:\UtilsDir\boost\include\)
-$(BoostLibDir)     - Директория библиотек буста         (D:\UtilsDir\boost\lib\)
-$(OpenSSLIncludeDir)  - Путь к включаемым файлам OpenSSL(D:\UtilsDir\OpenSSL\include\)
-
-$(MyDLLDir)     - Путь к общей папке куда будет копироваться dll  (D:\Common\DLL\)
-$(MyLibDir)     - Путь к общей папке куда будет копироваться lib  (D:\Common\Lib\)
-$(MyIncludeDir) - Путь к общей папке куда будет копироваться h для убоства интеграции dll в другие приложения (D:\Common\include\)
+- $(BoostIncludeDir) - Директория включаемых файлов буста (D:\UtilsDir\boost\include\)
+- $(BoostLibDir)     - Директория библиотек буста         (D:\UtilsDir\boost\lib\)
+- $(OpenSSLIncludeDir)  - Путь к включаемым файлам OpenSSL(D:\UtilsDir\OpenSSL\include\)
+- $(MyDLLDir)     - Путь к общей папке куда будет копироваться dll  (D:\Common\DLL\)
+- $(MyLibDir)     - Путь к общей папке куда будет копироваться lib  (D:\Common\Lib\)
+- $(MyIncludeDir) - Путь к общей папке куда будет копироваться h для убоства интеграции dll в другие приложения (D:\Common\include\)
 
 
 Используемые библиотеки:
