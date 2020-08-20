@@ -353,7 +353,7 @@ void sendRequestByCurl()
 
         std::string readBuffer;
         curl_easy_setopt(curl, CURLOPT_URL,
-                         "https://api.telegram.org/bot775186029:AAHh1StDVlvod-oLACt1NuHheJD5j7mTQ4M/sendMessage");
+                         "https://api.telegram.org/bot{token}/sendMessage");
         curl_easy_setopt(curl, CURLOPT_HTTPPOST, 1);
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
