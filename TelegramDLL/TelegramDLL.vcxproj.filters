@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="tgBot">
+      <UniqueIdentifier>{ee18157b-9a15-439f-87cb-3930810d4dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tgBot\net">
+      <UniqueIdentifier>{050d1d7b-d41a-4a95-843f-78b16f4832e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tgBot\tools">
+      <UniqueIdentifier>{e01d06fa-ceac-4231-89ec-7c4743e4777a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tgBot\types">
+      <UniqueIdentifier>{3e00ba19-71ca-4b0d-a8a2-8acd6a81102f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TelegramDLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelegramThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\tgbot\net\BoostHttpOnlySslClient.cpp">
+      <Filter>tgBot\net</Filter>
+    </ClCompile>
+    <ClCompile Include="include\tgbot\net\CurlHttpClient.cpp">
+      <Filter>tgBot\net</Filter>
+    </ClCompile>
+    <ClCompile Include="include\tgbot\net\HttpParser.cpp">
+      <Filter>tgBot\net</Filter>
+    </ClCompile>
+    <ClCompile Include="include\tgbot\net\TgLongPoll.cpp">
+      <Filter>tgBot\net</Filter>
+    </ClCompile>
+    <ClCompile Include="include\tgbot\net\Url.cpp">
+      <Filter>tgBot\net</Filter>
+    </ClCompile>
+    <ClCompile Include="include\tgbot\tools\FileTools.cpp">
+      <Filter>tgBot\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="include\tgbot\tools\StringTools.cpp">
+      <Filter>tgBot\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="include\tgbot\types\InlineQueryResult.cpp">
+      <Filter>tgBot\types</Filter>
+    </ClCompile>
+    <ClCompile Include="include\tgbot\types\InputFile.cpp">
+      <Filter>tgBot\types</Filter>
+    </ClCompile>
+    <ClCompile Include="include\tgbot\Api.cpp">
+      <Filter>tgBot</Filter>
+    </ClCompile>
+    <ClCompile Include="include\tgbot\EventHandler.cpp">
+      <Filter>tgBot</Filter>
+    </ClCompile>
+    <ClCompile Include="include\tgbot\TgException.cpp">
+      <Filter>tgBot</Filter>
+    </ClCompile>
+    <ClCompile Include="include\tgbot\TgTypeParser.cpp">
+      <Filter>tgBot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TelegramDLL.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="res\TelegramDLL.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelegramDLL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelegramThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\net\BoostHttpOnlySslClient.h">
+      <Filter>tgBot\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\net\CurlHttpClient.h">
+      <Filter>tgBot\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\net\HttpClient.h">
+      <Filter>tgBot\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\net\HttpParser.h">
+      <Filter>tgBot\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\net\HttpReqArg.h">
+      <Filter>tgBot\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\net\HttpServer.h">
+      <Filter>tgBot\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\net\TgLongPoll.h">
+      <Filter>tgBot\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\net\TgWebhookLocalServer.h">
+      <Filter>tgBot\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\net\TgWebhookServer.h">
+      <Filter>tgBot\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\net\TgWebhookTcpServer.h">
+      <Filter>tgBot\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\net\Url.h">
+      <Filter>tgBot\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\tools\FileTools.h">
+      <Filter>tgBot\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\tools\StringTools.h">
+      <Filter>tgBot\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\Animation.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\Audio.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\CallbackGame.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\CallbackQuery.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\Chat.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\ChatMember.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\ChatPhoto.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\ChosenInlineResult.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\Contact.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\Document.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\File.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\ForceReply.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\Game.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\GameHighScore.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\GenericReply.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineKeyboardButton.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineKeyboardMarkup.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQuery.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResult.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultArticle.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultAudio.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultCachedAudio.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultCachedDocument.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultCachedGif.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultCachedMpeg4Gif.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultCachedPhoto.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultCachedSticker.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultCachedVideo.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultCachedVoice.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultContact.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultDocument.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultGame.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultGif.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultLocation.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultMpeg4Gif.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultPhoto.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultVenue.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultVideo.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InlineQueryResultVoice.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InputContactMessageContent.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InputFile.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InputLocationMessageContent.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InputMedia.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InputMediaAnimation.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InputMediaAudio.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InputMediaDocument.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InputMediaPhoto.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InputMediaVideo.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InputMessageContent.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InputTextMessageContent.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\InputVenueMessageContent.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\Invoice.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\KeyboardButton.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\LabeledPrice.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\Location.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\MaskPosition.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\Message.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\MessageEntity.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\orderinfo.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\PhotoSize.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\PreCheckoutQuery.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\ReplyKeyboardMarkup.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\ReplyKeyboardRemove.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\ResponseParameters.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\ShippingAddress.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\ShippingOption.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\ShippingQuery.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\Sticker.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\StickerSet.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\SuccessfulPayment.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\Update.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\User.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\UserProfilePhotos.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\Venue.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\Video.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\VideoNote.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\Voice.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\types\WebhookInfo.h">
+      <Filter>tgBot\types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\Api.h">
+      <Filter>tgBot</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\Bot.h">
+      <Filter>tgBot</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\EventBroadcaster.h">
+      <Filter>tgBot</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\EventHandler.h">
+      <Filter>tgBot</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\tgbot.h">
+      <Filter>tgBot</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\TgException.h">
+      <Filter>tgBot</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tgbot\TgTypeParser.h">
+      <Filter>tgBot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TelegramDLL.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
