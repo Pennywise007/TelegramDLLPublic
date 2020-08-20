@@ -100,7 +100,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <ModuleDefinitionFile>.\TelegramDLL.def</ModuleDefinitionFile>
-      <AdditionalLibraryDirectories>$(BoostIncludeDir);%(AdditionalLibraryDirectories);$(OpenSSLLibDir)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(BoostLibDir);%(AdditionalLibraryDirectories);$(OpenSSLLibDir);</AdditionalLibraryDirectories>
       <AdditionalDependencies>libeay32.lib;ssleay32.lib;</AdditionalDependencies>
     </Link>
     <Midl>
@@ -180,7 +180,7 @@ copy "$(ProjectDir)TelegramThread.h" "$(MyIncludeDir)$(ProjectName)\TelegramThre
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <ModuleDefinitionFile>.\TelegramDLL.def</ModuleDefinitionFile>
-      <AdditionalLibraryDirectories>$(BoostIncludeDir);%(AdditionalLibraryDirectories);$(OpenSSLLibDir);$(BoostLibDir);</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(BoostLibDir);%(AdditionalLibraryDirectories);$(OpenSSLLibDir);</AdditionalLibraryDirectories>
       <AdditionalDependencies>libeay32.lib;ssleay32.lib;</AdditionalDependencies>
     </Link>
     <Midl>
@@ -223,7 +223,7 @@ copy "$(ProjectDir)TelegramThread.h" "$(MyIncludeDir)$(ProjectName)\TelegramThre
       <OptimizeReferences>true</OptimizeReferences>
       <ModuleDefinitionFile>.\TelegramDLL.def</ModuleDefinitionFile>
       <AdditionalDependencies>libeay32.lib;ssleay32.lib;</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(BoostIncludeDir);D:\Program Files (x86)\Visual Leak Detector\lib\Win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(BoostLibDir);D:\Program Files (x86)\Visual Leak Detector\lib\Win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
